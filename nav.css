@@ -1,0 +1,104 @@
+.nav {font-size:15px; text-align: center;line-height: 2em;z-index: 1;}
+.nav ul{ list-style:none ; }
+.nav>ul{
+	position: fixed;
+	padding: 0px;
+	margin: 0px;
+	height: 40px;
+	background-color: rgba(21, 153, 87, 0.4);
+
+}
+.nav>ul>li{
+	float: left;
+	position: relative;
+	width: 120px;
+	height: 30px;
+}
+.nav>ul>li>a{
+	display: block;
+	width: 80px;
+	margin: 5px 20px;
+	height: 30px;
+	color: white;
+}
+.nav>ul>li>a:hover{
+	text-decoration: none;
+	border-radius: 5px 5px 5px 5px;
+	background-color: white;
+	color: black;
+}
+ul.subNav{
+	height: 0px;
+	overflow: hidden;
+	width: 120px;
+	margin: 5px 0 0 0;
+	padding: 0px;
+	position: absolute;
+	left: 0px;
+	top:35px;
+	background-color: rgba(21, 153, 87, 0.4);
+}
+.subNav>li{
+	height: 30px;
+	width: 120px;
+}
+#contact li{
+	width: 120px;
+	height: auto;
+}
+.subNav>li>a{
+	font-size: 12px;
+	display: block;
+	width: 80px;
+	height: 30px;
+	margin: 5px 20px;
+	text-decoration: none;
+	border-radius: 5px 5px 5px 5px;
+	background-color: white;
+	color: black;
+}
+.subNav>li>a:hover{
+	background-image: linear-gradient(120deg, #155799, #159957);	
+	color: white;
+}
+ul.nav>li#school:hover ul{
+	height: 180px;
+}
+ul.nav>li#exam:hover ul{
+	height: 145px;
+}
+ul.nav>li#game:hover ul{
+	height: 145px;
+}
+ul.nav>li#contact:hover ul{
+	height: 230px;
+}
+ul.nav>li ul{transition: 0.5s;}
+#nekopara:hover{
+	background-image: url(img/nokopara.jpg);
+	background-size: 200%;
+	background-position:left;
+}
+
+#overwatch:hover {
+	background-image: url(img/ow2.jpg);
+	background-size: 100%;
+}
+
+#csgo:hover {
+	background-image: url(img/csgo.jpeg);
+	background-size: 100%;
+}
+
+#lol:hover {
+	background-image: url(img/lol.jpg);
+	background-size: 100%;
+}
+#steam:hover{
+	background-image: url(img/csgo.jpeg);
+	background-size: 100%;
+}
+img#qq {
+	width: 120px;
+	background-color: lightblue;
+}
